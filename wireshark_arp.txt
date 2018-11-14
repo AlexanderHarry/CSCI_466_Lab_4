@@ -27,7 +27,8 @@
 
 	15. There is no response because of the fact that we are not the correct source address in which the broadcast is referring to.
 
-	d) 
+	d) The default amount of time that an entry remains in my ARP cache is 60 seconds.  I used the code "cat /proc/sys/net/ipv4/neigh/default/gc_stale_time" (source: https://askubuntu.com/questions/516567/how-long-is-an-arp-entry-cached-for) in my terminal.  
+
 		
 	
 
